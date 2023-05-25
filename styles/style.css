@@ -12,6 +12,7 @@ section p,section li{
     margin-right: auto;
     width: 10%;
     border-radius: 100%;
+    transition: width 0.7s ease-out;
 }
 h1{
     font-size: 35px;
@@ -19,7 +20,10 @@ h1{
     background-color: #111b21;
     color: rgba(255, 255, 255, 0.9);
     text-align: center;
-
+    transition: font-size 0.2s;
+    /* -moz-transition:font-size 0.2s; 
+    -webkit-transition:font-size 0.2s; 
+    -o-transition:font-size 0.2s; */
 }
 .datos-personales, .formacion-academica, .experiencia-laboral{
     color: rgba(255, 255, 255, 0.9);
@@ -42,8 +46,7 @@ h1{
 }
 .menu{
     text-align: center;
-    background-color: black;
-}
+    }
 .menu li{
     list-style-type: none;
     color: rgba(255, 255, 255, 0.9);
@@ -64,6 +67,17 @@ h1{
 .titulo-sobreMi{
     text-align: center;
     color: rgba(255, 255, 255, 0.9);
+}
+.foto:hover{
+    background-color: rgba(107, 107, 107, 0.2);
+    width: 13%;
+}
+.menu:hover{
+    background-color: black;
+}
+h1:hover{
+    font-size: 37px;
+    font-weight: bolder;
 }
 footer{
     background-color: #005677;;
