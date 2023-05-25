@@ -1,40 +1,78 @@
 body{
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #E6E6E6;
-}
-header{
-    background-color: #E6E6E6;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #0a1014;
 }
 section p,section li{
     font-size: 15px;
     font-style: italic;
 }
-.logo{
-    background-color: #E6E6E6;
-    background-size: cover;
+.foto{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 10%;
+    border-radius: 100%;
+}
+h1{
+    font-size: 35px;
+    margin-block-start: 10px;
+    background-color: #111b21;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+
+}
+.datos-personales, .formacion-academica, .experiencia-laboral{
+    color: rgba(255, 255, 255, 0.9);
+}
+.datos-personales h2, .formacion-academica h2, .experiencia-laboral h2{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.9);
+}
+.datos-personales li, .formacion-academica li, .experiencia-laboral li{
+    font-weight: 100;
+}
+
+.datos-personales p, .formacion-academica p, .experiencia-laboral p{
+    font-weight: 100;
 }
 .negrita{
     font-weight:bolder;
 }
-h1{
-    font-size: 35px;
-    background-color: #c4c4c4;
-    color: #005677;
+.menu{
     text-align: center;
+    background-color: black;
 }
-.datos-personales, .formacion-academica, .experiencia-laboral{
-    background-color: #ffffff;
+.menu li{
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.9);
+    display: inline;
+    padding-right: 10px;
 }
-.datos-personales h2, .formacion-academica h2, .experiencia-laboral h2{
+.menu li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
     font-size: 20px;
-    background-color: #c4c4c4;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.menu li a:hover{
     color: #005677;
+}
+.titulo-sobreMi{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
 }
 footer{
     background-color: #005677;;
     color: #FFFF;
     text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: #FFFF;
+    padding: 10px;
+    font-size: 25px;
 }
