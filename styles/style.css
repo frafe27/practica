@@ -91,8 +91,9 @@ h1:hover{
 .datos-personales:hover,.formacion-academica:hover, .experiencia-laboral:hover{
     padding-left: 10px;
 }
+
 footer{
-    background-color: #005677;;
+    background-color: #005677;
     color: #FFFF;
     text-align: center;
 }
@@ -101,4 +102,10 @@ footer a{
     color: #FFFF;
     padding: 10px;
     font-size: 25px;
+    transition: font-size 0.2s linear;
+    transition: color 0.5s ease;
+}
+footer a:hover{
+    color: #012241;
+    font-size: 30px;
 }
